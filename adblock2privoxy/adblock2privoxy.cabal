@@ -1,9 +1,9 @@
 name:           adblock2privoxy
-version:        2.3.0
+version:        2.3.1
 cabal-version:  >= 1.10
 build-type:     Simple
 tested-with:
-                GHC==9.6.3
+                GHC==9.12.2
 author:         Alexey Zubritsky <adblock2privoxy@zubr.me>, Steven Thomas Smith <steve.t.smith@gmail.com>
 data-files:
                 templates/ab2p.system.action,
@@ -104,4 +104,4 @@ source-repository this
   type:         git
   location:     https://github.com/essandess/adblock2privoxy.git
   subdir:       adblock2privoxy
-  tag:          v2.3.0
+  tag:          v2.3.1

@@ -5,7 +5,7 @@ where
 
 import Network.HTTP.Conduit
 import Data.Text.Lazy.Encoding
-import Data.Text.Lazy
+import Data.Text.Lazy (unpack)
 import Control.Exception
 
 -- | A simpleHttp alternative that specifies bigger timeout and retries connection attempts
