@@ -1,3 +1,5 @@
+2.3.1
+	* Fix Network.hs compilation
 2.3.0
 	* hlint mods
 	* Add debug code with new DebugLevel option
